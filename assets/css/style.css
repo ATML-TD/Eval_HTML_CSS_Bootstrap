@@ -39,6 +39,11 @@ html {
     }
 }
 
+.title {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
 
 /* Header */
 
@@ -65,6 +70,11 @@ html {
     color: black;
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #ff7fb1;
+    border-color: #ff7fb1;
+}
+
 
 /* Main */
 
@@ -72,16 +82,12 @@ html {
     display: flex;
     align-items: center;
     background-color:  #ff7fb1 ;
-    margin-top: 75px;
     padding-top: 75px;
     padding-bottom: 75px;
     gap: 5px
 }
 
-.cover-title {
-    font-size: 50px;
-    margin-bottom: 20px;
-}
+
 
 .cover-introduction {
     margin-bottom: 30px;
@@ -92,6 +98,30 @@ html {
 }
 
 .image-listen {
+    width: 55%;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.community {
+    display: flex;
+    align-items: center;
+    background-color:  white ;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+.image-pinklink{
+    width: 55%;
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+.image-october{
     width: 55%;
     flex-shrink: 0;
     object-fit: cover;
